@@ -23,3 +23,5 @@ Podczas kursu nauczysz się:
 - Modyfikatory dostępu
 - Podstawowe wejścia - Klasa ```Scanner```
 - Zapis i odczyt z plików
+
+[Wykład1](https://github.com/WebAce-Group/java101/tree/main/w1)
