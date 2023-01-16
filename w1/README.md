@@ -12,3 +12,5 @@
 - Typy danych i zmienne
 - Operatory matematyczne i logiczne
 - Funkcje matematyczne
+
+### Hej, to jest commit z lokalnego repozytorium :)
