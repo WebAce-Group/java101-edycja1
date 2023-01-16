@@ -7,8 +7,8 @@
 ## Godzina: **19.00**
 
 ### Agenda:
-- konfiguracja środowiska Java
-- podstawowej pracy z Git-em oraz Githubem
+- konfiguracja środowiska Java [Instalka](https://download.oracle.com/java/19/latest/jdk-19_windows-x64_bin.msi)
+- podstawowej pracy z Git-em oraz Githubem [Instalka Git](https://github.com/git-for-windows/git/releases/download/v2.39.0.windows.2/Git-2.39.0.2-64-bit.exe)
 - Typy danych i zmienne
 - Operatory matematyczne i logiczne
 - Funkcje matematyczne
