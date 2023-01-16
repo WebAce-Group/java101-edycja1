@@ -14,3 +14,5 @@
 - Funkcje matematyczne
 
 ### Hej, to jest commit z lokalnego repozytorium :)
+
+### To jest zwrotka z GitHuba :D
