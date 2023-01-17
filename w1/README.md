@@ -151,4 +151,4 @@ System.out.println("sqrt(25) = " + sqrt(25)); // 5 - pierwiastek kwadratowy
 System.out.println("round(5.2) = " + round(5.2)); // 5 - zaokrąglenie do najbliższej liczby całkowitej
 System.out.println("round(5.5) = " + round(5.5)); // 6 - zaokrąglenie do najbliższej liczby całkowitej
 ```
-
+## [Zadania do wykoniania](zadanie.md)
