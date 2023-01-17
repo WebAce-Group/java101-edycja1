@@ -3,7 +3,7 @@
 
 # Pierwszy wykład Java 101
 
-## Data: **19 lutego 2023**
+## Data: **13 lutego 2023**
 
 ## Miejsce: **Sala D2.1 - C-16 Technopolis - Janiszewskiego 7, 50-372 Wrocław**
 
