@@ -1,13 +1,13 @@
-<p align="center"><img src="https://user-images.githubusercontent.com/50357817/211677288-21d1a18f-7f03-41bd-903c-e1c658288f7b.png" alt="baner"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/50357817/212937734-ffcab755-5dfe-4a8f-a5b6-0b234764acd1.svg" alt="baner"></p>
+
 
 # Pierwszy wykład Java 101
 
-## Data: **16 stycznia 2023**
+## Data: **19 lutego 2023**
 
 ## Miejsce: **Sala D2.1 - C-16 Technopolis - Janiszewskiego 7, 50-372 Wrocław**
 
 ## Godzina: **19.00**
-
 ___
 
 ## Podsumowanie wykładu:
