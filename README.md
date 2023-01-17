@@ -24,4 +24,12 @@ Podczas kursu nauczysz się:
 - Podstawowe wejścia - Klasa ```Scanner```
 - Zapis i odczyt z plików
 
+***Dla wytrwałych***
+- łączenie się z bazą danych lokalną
+- łączenie się z bazą danych na serwerze
+- zapytania HTTP w Javie (napiszemy własny wrapper)
+
+***Na końcu kursu, każdy z was będzie poproszony o napisanie własnego projektu***
+(otrzymacie oficjalny podpisany certyfikat przez WebAce Group)
+
 [Wykład 1](https://github.com/WebAce-Group/java101/tree/main/w1)
