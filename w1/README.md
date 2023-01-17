@@ -1,5 +1,4 @@
-<p align="center"><img src="https://user-images.githubusercontent.com/50357817/212937734-ffcab755-5dfe-4a8f-a5b6-0b234764acd1.svg" alt="baner"></p>
-
+<p align="center"><img src="https://user-images.githubusercontent.com/50357817/212973047-a3155f5b-d57b-4eac-8d52-4d5367a33efb.svg" alt="baner"></p>
 
 # Pierwszy wykład Java 101
 
