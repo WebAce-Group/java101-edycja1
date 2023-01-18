@@ -26,8 +26,6 @@ Podczas kursu nauczysz się:
 - modyfikatorów dostępu
 - podstawowego wejścia - Klasa ```Scanner```
 - zapisu i odczytu z plików
-
-***Dla wytrwałych***
 - łączenie się z bazą danych lokalną
 - łączenie się z bazą danych na serwerze
 - zapytania HTTP w Javie (napiszemy własny wrapper)
