@@ -9,25 +9,30 @@ Aby uczestniczyć w kursie, nie potrzebujesz żadnej wiedzy ani przygotowania - 
 
 Podczas kursu nauczysz się:
 - podstawowej pracy z Git-em oraz Githubem
-- Typy danych i zmienne
-- Operatory matematyczne i logiczne
-- Funkcje matematyczne
-- Konwersja i rzutowanie typów
-- Zapis i konwencja nazewnictwa
-- Wstęp do OOP
-- Instrukcje sterujące
-- Pętle sterujące
-- Zakres widoczności zmiennych
-- Tablice jednowymiarowe
-- Tablice wielowymiarowe
-- Modyfikatory dostępu
-- Podstawowe wejścia - Klasa ```Scanner```
-- Zapis i odczyt z plików
+- typów danych i zmiennych
+- operatorów matematycznych i logicznych
+- funkcji matematycznych
+- konwersji i rzutowania typów
+- zapisu i konwencji nazewnictwa
+- wstępu do OOP
+- instrukcji sterujących
+- pętli sterujących
+- zakresu widoczności zmiennych
+- tablic jednowymiarowych
+- tablic wielowymiarowych
+- array lists (tablice dynamiczne)
+- map (obiekty typu klucz-wartość)
+- sets (kolekcje bez duplikatów)
+- modyfikatorów dostępu
+- podstawowego wejścia - Klasa ```Scanner```
+- zapisu i odczytu z plików
 
 ***Dla wytrwałych***
 - łączenie się z bazą danych lokalną
 - łączenie się z bazą danych na serwerze
 - zapytania HTTP w Javie (napiszemy własny wrapper)
+- aplikacja okienkowa w framworku JavaFx
+- aplikacja webowa w SpringBoot
 
 ***Na końcu kursu, każdy z was będzie poproszony o napisanie własnego projektu***
 (otrzymacie oficjalny certyfikat podpisany przez WebAce Group)
