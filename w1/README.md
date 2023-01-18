@@ -9,8 +9,6 @@
 ## Godzina: **19.00**
 ___
 
-## Podsumowanie wykładu:
-
 ### **_Instalacja środowiska programistycznego_** [Instalka](https://download.jetbrains.com/idea/ideaIC-2022.3.1.exe)
 
 ### **_konfiguracja środowiska Java_** [Instalka](https://download.oracle.com/java/19/latest/jdk-19_windows-x64_bin.msi)
