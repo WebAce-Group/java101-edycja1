@@ -14,25 +14,26 @@ Podczas kursu nauczysz się:
 - funkcji matematycznych
 - konwersji i rzutowania typów
 - zapisu i konwencji nazewnictwa
-- wstępu do OOP
 - instrukcji sterujących
 - pętli sterujących
 - zakresu widoczności zmiennych
+- podstawowego wejścia - Klasa ```Scanner```
 - tablic jednowymiarowych
 - tablic wielowymiarowych
 - array lists (tablice dynamiczne)
 - map (obiekty typu klucz-wartość)
 - sets (kolekcje bez duplikatów)
+- wstępu do OOP
+- polimorfizmu i dziedziczenia
 - modyfikatorów dostępu
-- podstawowego wejścia - Klasa ```Scanner```
 - zapisu i odczytu z plików
-- łączenie się z bazą danych lokalną
-- łączenie się z bazą danych na serwerze
-- zapytania HTTP w Javie (napiszemy własny wrapper)
-- aplikacja okienkowa w framworku JavaFx
+- łączenia się z bazą danych lokalną
+- łączenia się z bazą danych na serwerze
+- zapytań HTTP w Javie (napiszemy własny wrapper)
+- aplikacja okienkowa w frameworku JavaFx
 - aplikacja webowa w SpringBoot
 
 ***Na końcu kursu, każdy z was będzie poproszony o napisanie własnego projektu***
-(otrzymacie oficjalny certyfikat podpisany przez WebAce Group)
+(po którego oddaniu otrzymacie oficjalny certyfikat podpisany przez WebAce Group)
 
 [Wykład 1](https://github.com/WebAce-Group/java101/tree/main/w1)
