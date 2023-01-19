@@ -2,7 +2,7 @@
 
 # Java 101 - Czyli kompletne wprowadzenie do języka Java
 
-## Jeśli jesteś studentem Politechniki Wrocławskiej - zapraszam Cię na kurs wprowadzający do języka Java!
+## Jeśli jesteś studentem Politechniki Wrocławskiej - zapraszam Cię na kurs wprowadzający do języka Java! Dzięki współpracy z Samorządem Wydziałowym W4N, możemy spotkać się na żywo na uczelni!
 
 Nigdy w życiu nie programowałeś? Żaden problem!
 Aby uczestniczyć w kursie, nie potrzebujesz żadnej wiedzy ani przygotowania - kurs jest przeznaczony dla osób kompletnie "zielonych".
