@@ -15,6 +15,7 @@ Podczas kursu nauczysz się:
 - konwersji i rzutowania typów
 - zapisu i konwencji nazewnictwa
 - instrukcji sterujących
+- jak czytelnie pisać instrukcje sterujące
 - pętli sterujących
 - zakresu widoczności zmiennych
 - podstawowego wejścia - Klasa ```Scanner```
