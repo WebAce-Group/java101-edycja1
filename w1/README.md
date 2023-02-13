@@ -1,16 +1,13 @@
-<p align="center"><img src="https://user-images.githubusercontent.com/50357817/211677288-21d1a18f-7f03-41bd-903c-e1c658288f7b.png" alt="baner"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/50357817/212973047-a3155f5b-d57b-4eac-8d52-4d5367a33efb.svg" alt="baner"></p>
 
 # Pierwszy wykład Java 101
 
-## Data: **16 stycznia 2023**
+## Data: **13 lutego 2023**
 
 ## Miejsce: **Sala D2.1 - C-16 Technopolis - Janiszewskiego 7, 50-372 Wrocław**
 
 ## Godzina: **19.00**
-
 ___
-
-## Podsumowanie wykładu:
 
 ### **_Instalacja środowiska programistycznego_** [Instalka](https://download.jetbrains.com/idea/ideaIC-2022.3.1.exe)
 
