@@ -61,6 +61,7 @@ To nie jest konieczne, ale bardzo nam pomaga :)
 - Zmiennej ```g``` przypisz wartość bezwględną ```e``` (stosując odpowiednią metodę z klasy ```java.lang.Math```).
 - Zmiennej ```h``` przypisz wartość ```10.5001```.
 - Teraz, zaokrąglij wartość zmiennej ```h``` do najbliższej liczby całkowitej (stosując odpowiednią metodę z klasy ```java.lang.Math```).
+- Wyświetl w konsoli wartość wszystkich zmiennych.
 
 ## Wysyłanie rozwiązań
 - Dodać pliki ```Zadanie1.java``` i ```Zadanie2.java``` do repozytorium (```git add```).
