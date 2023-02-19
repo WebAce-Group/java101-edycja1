@@ -1,4 +1,4 @@
-package w1.zadania.Wyklad1;
+package w1.zadania.Mikul17;
 
 public class Zadanie1 {
     public static void main(String[] args) {

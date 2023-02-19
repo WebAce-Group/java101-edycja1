@@ -1,4 +1,4 @@
-package w1.zadania.Wyklad1;
+package w1.zadania.Mikul17;
 
 import java.lang.Math;
 
