@@ -1,6 +1,6 @@
 public class Zadanie1 {
     public static void main(String[] args) {
-        //deklaracja i przypisanie zmiennych
+        //deklaracja i przypisanie wartosci zmiennym
         int a = 1;
         int b = 2;
         int c = 3;
@@ -28,8 +28,9 @@ public class Zadanie1 {
         boolean m,n;
         m = true;
         n = false;
+        //Wyswietlenie wszystkich zmiennych
         System.out.println("Wartość m && n = " + (m&&n));
-        System.out.println("a= "+ (a) + ", b= "+(b) + ", c= "+(c)+ ", d= "+(d) + ", e= "+(e)+", f= "+(f)+", g= "+(g)+", h= "+(h)+", ab= "+(ab)+", cd="+(cd)+", ef= "+(ef)+", gh="+(gh)+", i= "+(i)+", j="+(j)+", k= "+(k)+", l= "+(l)+", m="+(m)+", n="+(n));
+        System.out.println("a= "+ (a) + ", b= "+(b) + ", c= "+(c)+ ", d= "+(d) + ", e= "+(e)+", f= "+(f)+", g= "+(g)+", h= "+(h)+", ab= "+(ab)+", cd="+(cd)+", ef= "+(ef)+", gh="+(gh)+", i= "+(i)+", j="+(j)+", k= "+(k)+", l= "+(l));
 
 
 
