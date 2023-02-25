@@ -51,5 +51,5 @@ public class Zadanie1 {public static void main(String[] args)
     System.out.println("m: " + m);
     System.out.println("n: " + n);
     System.out.println("m && n: " + (m && n));
-}
+ }
 }
