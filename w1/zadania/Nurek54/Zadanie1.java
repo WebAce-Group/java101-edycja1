@@ -23,12 +23,8 @@ public class Zadanie1 {public static void main(String[] args)
     char i = 'A';
     char j = 'a';
 
-    String iPlusj = "" + i + j;
-
     String k = "Ala";
     String l = "ma";
-
-    String kPlusl = k + l;
 
     boolean m = true;
     boolean n = false;
@@ -48,10 +44,10 @@ public class Zadanie1 {public static void main(String[] args)
     System.out.println("reszta: " + reszta);
     System.out.println("i: " + i);
     System.out.println("j: " + j);
-    System.out.println("iPlusj: " + iPlusj);
+    System.out.println("i + j: " + i + j);
     System.out.println("k: " + k);
     System.out.println("l: " + l);
-    System.out.println("kPlusl: " + kPlusl);
+    System.out.println("k + l: " + k + l);
     System.out.println("m: " + m);
     System.out.println("n: " + n);
     System.out.println("m && n: " + (m && n));
