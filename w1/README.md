@@ -40,6 +40,7 @@ int liczba2 = liczba1 + 5;
 System.out.println(liczba2); //15
 liczba2 = 10;
 System.out.println(liczba2); //10
+
 double liczba3, liczba4;
 liczba3 = 3.5;
 liczba4 = 2.5;
@@ -68,18 +69,18 @@ boolean flag = true;
 ```
 
 - **Operatory matematyczne**
-    - **+** dodawanie
-    - **-** odejmowanie
-    - **\*** mnożenie
-    - **/** dzielenie
-    - **%** modulo (reszta z dzielenia)
-    - **++** inkrementacja (zwiększenie wartości zmiennej o 1)
-    - **--** dekrementacja (zmniejszenie wartości zmiennej o 1)
-    - **+=** dodawanie i przypisanie
-    - **-=** odejmowanie i przypisanie
-    - **\*=** mnożenie i przypisanie
-    - **/=** dzielenie i przypisanie
-    - **%=** modulo i przypisanie
+  - **+** dodawanie
+  - **-** odejmowanie
+  - **\*** mnożenie
+  - **/** dzielenie
+  - **%** modulo (reszta z dzielenia)
+  - **++** inkrementacja (zwiększenie wartości zmiennej o 1)
+  - **--** dekrementacja (zmniejszenie wartości zmiennej o 1)
+  - **+=** dodawanie i przypisanie
+  - **-=** odejmowanie i przypisanie
+  - **\*=** mnożenie i przypisanie
+  - **/=** dzielenie i przypisanie
+  - **%=** modulo i przypisanie
 
 ```java
 System.out.println("a + b = " + (a + b)); // 7
@@ -105,15 +106,15 @@ System.out.println("a %= b = " + g); // 1
 ```
 
 - **Operatory logiczne**
-    - **==** porównanie wartości
-    - **!=** porównanie wartości
-    - **>** większe
-    - **<** mniejsze
-    - **>=** większe lub równe
-    - **<=** mniejsze lub równe
-    - **&&** i
-    - **||** lub
-    - **!** negacja
+  - **==** porównanie wartości
+  - **!=** porównanie wartości
+  - **>** większe
+  - **<** mniejsze
+  - **>=** większe lub równe
+  - **<=** mniejsze lub równe
+  - **&&** i
+  - **||** lub
+  - **!** negacja
 ```java
 System.out.println("a == b = " + (a == b)); // false
 System.out.println("a != b = " + (a != b)); // true
