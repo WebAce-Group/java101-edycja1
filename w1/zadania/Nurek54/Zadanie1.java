@@ -23,6 +23,8 @@ public class Zadanie1 {public static void main(String[] args)
     char i = 'A';
     char j = 'a';
 
+    int iPLUSj = i+j; //suma kodów ASCII
+
     String k = "Ala";
     String l = "ma";
 
@@ -45,6 +47,7 @@ public class Zadanie1 {public static void main(String[] args)
     System.out.println("i: " + i);
     System.out.println("j: " + j);
     System.out.println("i + j: " + i + j);
+    System.out.println("iPLUSj: " + iPLUSj); //To jest suma kodow ASCII A i a
     System.out.println("k: " + k);
     System.out.println("l: " + l);
     System.out.println("k + l: " + k + l);
