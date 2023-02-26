@@ -14,10 +14,11 @@ To nie jest konieczne, ale bardzo nam pomaga :)
 - Przeprowadź konfigurację Git-a (nazwa użytkownika, email)
 - Zrób ```fork``` tego repozytorium
 - Zrób ```clone``` repozytorium na swój komputer (pamiętaj o klonowaniu swojego ```fork```-a):
-
-  ```git clone https://github.com/{twoja nazwa użytkownika}/java101-edycja1.git```
+  
+   ```git clone https://github.com/{twoja nazwa użytkownika}/java101-edycja1.git```
 -  Utwórz nowy folder o swoim nicku na Githubie w folderze ```w1/zadania```
 -  do tego folderu będziesz wrzucać swoje rozwiązania zadań (pliki .java)
+
 ## Zadanie 1 - Zmienne i typy danych
 - W projekcie utwórz plik ```Zadanie1.java```
   > Uwaga! Nazwa pliku musi być taka sama jak nazwa klasy!
@@ -37,7 +38,9 @@ To nie jest konieczne, ale bardzo nam pomaga :)
 - Utwórz 2 nowe zmienne całkowite (typu ```int```) o nazwach: ```ab```, ```cd```. Wartością ```ab``` ma być suma wartości zmiennych ```a``` i ```b```, a wartością ```cd``` różnica wartości zmiennych ```c``` i ```d```.
 - Utwórz 4 zmienne zmiennoprzecinkowe (typu ```double```) o nazwach: ```e```, ```f```, ```g```, ```h``` i przypisz im wartości: ```1.1```, ```2.2```, ```3.3```, ```4.4```.
 - Utwórz 2 nowe zmienne zmiennoprzecinkowe (typu ```double```) o nazwach: ```ef```, ```gh```. Wartością ```ef``` ma być wynik mnożenia wartości zmiennych ```e``` i ```f```, a wartością ```gh``` wynik dzielenia wartości zmiennych ```g``` i ```h```.
+
 - Jaka będzie reszta z dzielenia zmiennej ```ab``` przez zmienną ```b```?
+
 - Utwórz 2 zmienne typu ```char``` o nazwach: ```i```, ```j``` i przypisz im wartości: ```'A'```, ```'a'```.
 - Sprawdź czy da się dodać do siebie zmienne ```i``` i ```j```. Jeśli nie, to dlaczego? Jeśli tak, to jaka będzie wartość?
 - Utwórz 2 zmienne typu ```String``` o nazwach: ```k```, ```l``` i przypisz im wartości: ```"Ala"```, ```"ma"```.
@@ -45,6 +48,7 @@ To nie jest konieczne, ale bardzo nam pomaga :)
 - Utwórz 2 zmienne typu ```boolean``` o nazwach: ```m```, ```n``` i przypisz im wartości: ```true```, ```false```.
 - Wyświetl w konsoli wartość wyrażenia ```m && n```.
 - Wyświetl w konsoli wartość wszystkich zmiennych.
+
 ## Zadanie 2 - Funkcje matematyczne
 - W projekcie utwórz plik ```Zadanie2.java```
 - Utwórz 2 zmienne całkowite (typu ```int```) o nazwach: ```a```, ```b``` i przypisz im wartości: ```5```, ```10```.
@@ -58,6 +62,7 @@ To nie jest konieczne, ale bardzo nam pomaga :)
 - Zmiennej ```h``` przypisz wartość ```10.5001```.
 - Teraz, zaokrąglij wartość zmiennej ```h``` do najbliższej liczby całkowitej (stosując odpowiednią metodę z klasy ```java.lang.Math```).
 - Wyświetl w konsoli wartość wszystkich zmiennych.
+
 ## Wysyłanie rozwiązań
 - Dodać pliki ```Zadanie1.java``` i ```Zadanie2.java``` do repozytorium (```git add```).
 - Zatwierdzić zmiany (```git commit -m "Rozwiązania zadań z zajęć 1"```).
