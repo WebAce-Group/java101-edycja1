@@ -28,7 +28,8 @@ public class Zadanie1 {
         String k = "Ala";
         String l = "ma";
 
-        //nie da się dodać k i l
+        System.out.println("Dodanie do siebie k i l: "+ k + l);
+        // jednak da się dodać :)
 
         boolean m = true;
         boolean n = false;
