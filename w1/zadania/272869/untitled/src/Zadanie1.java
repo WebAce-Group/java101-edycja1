@@ -16,6 +16,7 @@ public class Zadanie1 {
         char i = 'A';
         char j = 'a';
         System.out.println("dodanie i + j: " + i + j);
+        System.out.println("dodanie i + j: " + (i + j));
         String k="Ala";
         String l="ma";
         System.out.println("dodanie k + l: " + k + l);
