@@ -305,3 +305,4 @@ class Scan {
     }
 }
 ```
+[Zadanie domowe](zadania.md)
