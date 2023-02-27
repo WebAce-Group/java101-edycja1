@@ -6,7 +6,7 @@ public class Zadanie2 {
 
         double c,d;
         c = Math.pow(a, b);
-        d = Math.sqrt(c);
+        d = Math.sqrt(c);qg
 
         System.out.println("a = " + a + " b = " + b + " c = " + c + " d = " + d);
 
