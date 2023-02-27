@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5dc82a06-832e-4355-8380-742eb81c2184" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/w2/zadania/Gukson/zadanie3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w2/zadania/Gukson/zadanie4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w2/zadania/Gukson/zadanie5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w2/zadania/Gukson/zadanie6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w2/zadania/Gukson/zadanie7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/w2/zadania/Gukson/zadanie8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5dc82a06-832e-4355-8380-742eb81c2184" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
