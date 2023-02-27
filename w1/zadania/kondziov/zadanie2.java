@@ -1,4 +1,4 @@
-import java.lang.Math;
+import java.lang.Math.*;
 public class zadanie2 {
     public static void main(String[] args) {
       // tutaj umieść rozwiązanie zadanie    
@@ -10,7 +10,7 @@ public class zadanie2 {
         d = Math.sqrt(c);
 
         int e; e=-5;
-        Double g,h;
+        double g,h;
         g = Math.abs(e);
         h=10.5001;
         Math.round(h);
@@ -20,6 +20,6 @@ public class zadanie2 {
         System.out.println(Math.sqrt(c));
         System.out.println(e);
         System.out.println(g);
-        System.out.println(h);
+        System.out.println(Math.round(h));
     }
  }
