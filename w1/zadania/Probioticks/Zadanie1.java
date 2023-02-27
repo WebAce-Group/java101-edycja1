@@ -16,7 +16,7 @@ public class Zadanie1 {
         float modulo = ab % b;
         char i = 'A';
         char j = 'a';
-        String k ="Ala", l ="ma", kl = k + l;
+        String k ="Ala", l ="ma", kl = k + l, ij = String.valueOf(i + j);
 
 
         boolean m = true, n = false;
@@ -36,7 +36,7 @@ public class Zadanie1 {
         System.out.println(i);
         System.out.println(j);
         System.out.println(kl);
-
+        System.out.println(ij);
 
 
 
