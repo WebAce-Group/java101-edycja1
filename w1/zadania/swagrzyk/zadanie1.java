@@ -20,7 +20,7 @@ public class zadanie1 {
         boolean m = true;
         boolean n = false;
         System.out.println("ab/b = " + ab / b);
-        System.out.println("i+j = " + i + j);
+        System.out.println("i+j = " + (i + j));
         System.out.println("k+l = " + k + l);
         System.out.print(m && n);
         System.out.println("a = " + a + " b = " + b + " c = " + c + " d = " + d + " e = " + e + " f = " + f + " g = " + g + " h = " + h + " i = " + i + " j = " + j + " k = " + k + " l = " + l + " m = " + m + " n = " + n);
