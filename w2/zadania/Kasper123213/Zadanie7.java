@@ -14,7 +14,7 @@ public class Zadanie7 {
             iloscLiczb++;
         } while (liczba <= 100);
 
-        System.out.println(suma / iloscLiczb);
+        System.out.println((double)suma / iloscLiczb);
 
     }
 }
