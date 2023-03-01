@@ -1,3 +1,5 @@
+package w1.zadania.MiloszWS;
+
 public class Zadanie1 {
     public static void main(String[] args) {
         int a = 1, b = 2, c = 3, d = 4;

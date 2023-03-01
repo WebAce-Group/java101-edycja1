@@ -1,4 +1,4 @@
-package w1.zadania;
+package w1.zadania.MiloszWS;
 
 
 public class Zadanie2 {

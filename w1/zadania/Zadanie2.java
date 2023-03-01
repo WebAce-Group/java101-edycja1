@@ -1,3 +1,5 @@
+package w1.zadania;
+
 import static java.lang.Math.*;
 
 public class Zadanie2 {
