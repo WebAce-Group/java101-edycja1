@@ -38,3 +38,4 @@ Podczas kursu nauczysz się:
 (po którego oddaniu otrzymacie oficjalny certyfikat podpisany przez WebAce Group)
 
 [Wykład 1](https://github.com/WebAce-Group/java101/tree/main/w1)
+[Wykład 2](https://github.com/WebAce-Group/java101/tree/main/w2)
