@@ -8,7 +8,7 @@ public class zadanie1 {
         double gh = g / h;
         System.out.println("ab % b = " + ab % b);
         char i = 'A', j = 'a';
-        System.out.println(" i + j = " + i + j);
+        System.out.println(" i + j = " + (i + j));
         String k = "Ala", l = "ma";
         System.out.println("k+l = " + k + l);
         Boolean m = true;
