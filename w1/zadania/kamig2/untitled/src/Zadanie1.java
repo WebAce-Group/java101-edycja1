@@ -15,7 +15,7 @@ public class Zadanie1 {
         System.out.println(ab%b);
         i='A';j='a';
         k="Ala";l="ma";
-        System.out.print("nie da sie dodac zmiennych l i k  ");
+        System.out.print("można dodać zmienne l i k  ");
         System.out.println(k+l);
         m=true;n=false;
         System.out.println(m && n);
