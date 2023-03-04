@@ -15,7 +15,7 @@ To nie jest konieczne, ale bardzo nam pomaga :)
 - Zrób ```fork``` tego repozytorium
 - Zrób ```clone``` repozytorium na swój komputer (pamiętaj o klonowaniu swojego ```fork```-a):
   
-   ```git clone https://github.com/{twoja nazwa użytkownika}/java101.git```
+   ```git clone https://github.com/{twoja nazwa użytkownika}/java101-edycja1.git```
 -  Utwórz nowy folder o swoim nicku na Githubie w folderze ```w1/zadania```
 -  do tego folderu będziesz wrzucać swoje rozwiązania zadań (pliki .java)
 
