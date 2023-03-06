@@ -19,9 +19,10 @@ class Wyklad_2 {
         return output;
     }
 
-    public static void zad_3(Scanner scanner) {
+    public static void zad3(Scanner scanner) {
 
         //take int from stdin; if !int -> return;
+        System.out.println("Zadanie 3: boki trójkąta");
         System.out.println("Podaj bok a.");
         String aIn = scanner.nextLine();
         int a = stoi(aIn);
@@ -55,62 +56,37 @@ class Wyklad_2 {
             System.out.println("Z tych boków nie da się zbudować trójkąta!");
     }
 
-    public static void zad_4_1(Scanner scanner) {
+    public static void zad4_1(Scanner scanner) {
         
         //take int from stdin
+        System.out.println("Zadanie 4.1: Miesiące");
         System.out.println("Podaj liczbę całkowitą z zakresu 1-12.");
         String input = scanner.nextLine();
         int num = stoi(input);
         if (num == Integer.MIN_VALUE) {return;}
 
         //print result
-        switch (num) {
-            case 1:
-                System.out.println("Kwartał I.");                
-                break;
-            case 2:
-                System.out.println("Kwartał I.");                
-                break;
-            case 3:
-                System.out.println("Kwartał I.");                
-                break;
-            case 4:
-                System.out.println("Kwartał II.");                
-                break;
-            case 5:
-                System.out.println("Kwartał II.");                
-                break;
-            case 6:
-                System.out.println("Kwartał II.");                
-                break;
-            case 7:
-                System.out.println("Kwartał III.");                
-                break;
-            case 8:
-                System.out.println("Kwartał III.");                
-                break;
-            case 9:
-                System.out.println("Kwartał III.");                
-                break;
-            case 10:
-                System.out.println("Kwartał IV.");                
-                break;
-            case 11:
-                System.out.println("Kwartał IV.");                
-                break;
-            case 12:
-                System.out.println("Kwartał IV.");                
-                break;
+        String output = switch (num) {
+            case 1, 2, 3:
+                yield "Kwartał I.";
+            case 4, 5, 6:
+                yield "Kwartał II.";
+            case 7, 8, 9:
+                yield "Kwartał III.";
+            case 10, 11, 12:
+                yield "Kwartał IV.";
 
             default:
-                System.out.println("Liczba spoza zakresu 1-12!");
-                break;
-        }
+                yield "Liczba spoza zakresu 1-12!";
+
+        };
+        System.out.println(output);
     }
 
-    public static void zad_4_2(Scanner scanner) {
+    public static void zad4_2(Scanner scanner) {
 
         //take number from stdin
+        System.out.println("Zadanie 4.2: Dni tygodnia");
         System.out.println("Podaj liczbę całkowitą z zakresu 1-7.");
         String input = scanner.nextLine();
         int num = stoi(input);
@@ -130,11 +106,13 @@ class Wyklad_2 {
         System.out.println(output);
     }
 
-    public static void zad_5(Scanner scanner) {
+    public static void zad5(Scanner scanner) {
         
         //take number from stdin
-        System.out.println("Podaj liczbę całkowitą (najlepiej większą niż 1)");
+        System.out.println("Zadanie 5: Pętle for");
+        System.out.println("Podaj liczbę całkowitą");
         String input = scanner.nextLine();
+        System.out.println();
         int num = stoi(input);
         if (num == Integer.MIN_VALUE) {return;}
 
@@ -173,13 +151,14 @@ class Wyklad_2 {
         
     }
 
-    public static void zad_6(Scanner scanner) {
+    public static void zad6(Scanner scanner) {
         
         //init
         boolean cont = true;
         int sum = 0;
 
         //while (int)stdin != 0 sum ints
+        System.out.println("Zadanie 6: Suma");
         while(cont) {
             System.out.println("Podaj liczbę całkowitą (0 - wyjście)");
             String input = scanner.nextLine();
@@ -194,7 +173,7 @@ class Wyklad_2 {
                     
     }
 
-    public static void zad_7(Scanner scanner) {
+    public static void zad7(Scanner scanner) {
         
         //init
         boolean cont = true;
@@ -202,6 +181,7 @@ class Wyklad_2 {
         int sum = 0;
 
         //do sum and count ints from stdin while number from stdin <=100
+        System.out.println("Zadanie 7: Średnia ar.");
         do{
             System.out.println("Podaj liczbę całkowitą (>100 - wyjście)");
             String input = scanner.nextLine();
@@ -222,9 +202,10 @@ class Wyklad_2 {
             System.out.println("Nie podano liczb!");
     }
 
-    public static void zad_8() {
+    public static void zad8() {
 
         //for loop with break and continue
+        System.out.println("Zadanie 8: Pętla for z continue i break");
         for (int i = 1; i <= 100; i++) {
             if (i == 50) {break;}
             if (i%3!=0) {continue;}
@@ -239,38 +220,38 @@ class Wyklad_2 {
     public static boolean mainMenu(int num, Scanner scanner) {
         switch (num) {
             case 3:
-                zad_3(scanner);
+                zad3(scanner);
                 break;
             case 4:
-                zad_4_1(scanner);
-                zad_4_2(scanner);
+                zad4_1(scanner);
+                zad4_2(scanner);
                 break;
             case 41:
-                zad_4_1(scanner);
+                zad4_1(scanner);
                 break;
             case 42:
-                zad_4_2(scanner);
+                zad4_2(scanner);
                 break;
             case 5:
-                zad_5(scanner);
+                zad5(scanner);
                 break;
             case 6:
-                zad_6(scanner);
+                zad6(scanner);
                 break;
             case 7:
-                zad_7(scanner);
+                zad7(scanner);
                 break;
             case 8:
-                zad_8();
+                zad8();
                 break;
             case 1:
-                zad_3(scanner);
-                zad_4_1(scanner);
-                zad_4_2(scanner);
-                zad_5(scanner);
-                zad_6(scanner);
-                zad_7(scanner);
-                zad_8();
+                zad3(scanner);
+                zad4_1(scanner);
+                zad4_2(scanner);
+                zad5(scanner);
+                zad6(scanner);
+                zad7(scanner);
+                zad8();
                 break;
             case 0:
                 return false;
