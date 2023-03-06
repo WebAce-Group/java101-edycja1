@@ -66,21 +66,24 @@ class Wyklad_2 {
         if (num == Integer.MIN_VALUE) {return;}
 
         //print result
-        String output = switch (num) {
+        switch (num) {
             case 1, 2, 3:
-                yield "Kwartał I.";
+                System.out.println("Kwartał I.");
+                break;
             case 4, 5, 6:
-                yield "Kwartał II.";
+                System.out.println("Kwartał II.");
+                break;
             case 7, 8, 9:
-                yield "Kwartał III.";
+                System.out.println("Kwartał III.");
+                break;
             case 10, 11, 12:
-                yield "Kwartał IV.";
+                System.out.println("Kwartał IV.");
+                break;
 
             default:
-                yield "Liczba spoza zakresu 1-12!";
-
-        };
-        System.out.println(output);
+                System.out.println("Liczba spoza zakresu 1-12!");
+                break;
+        }
     }
 
     public static void zad4_2(Scanner scanner) {
