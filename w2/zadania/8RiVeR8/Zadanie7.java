@@ -13,6 +13,6 @@ public class Zadanie7 {
             ile++;
         }while(n<=100);
 
-        System.out.println("Średnia arytmetyczna liczb wynosi: "+(suma/ile));
+        System.out.println("Średnia arytmetyczna liczb wynosi: "+((double)suma/ile));
     }
 }
