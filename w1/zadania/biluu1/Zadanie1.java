@@ -1,3 +1,5 @@
+package w1.zadania.biluu1;
+
 public class Zadanie1 {
     public static void main(String[] args){
         int a=1, b=2, c=3, d=4; /*zmienne calkowite*/
