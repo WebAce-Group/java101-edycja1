@@ -11,7 +11,7 @@ public class Zadanie7 {
             suma = suma + n;
             x++;
         }while(n <= 100);
-        float srednia = suma/x;
+        float srednia = (float)suma/x;
         System.out.println("Średnia podanych liczb: " + srednia);
     }
 }
