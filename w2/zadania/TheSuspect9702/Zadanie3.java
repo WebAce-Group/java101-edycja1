@@ -18,6 +18,7 @@ public class Zadanie3 {
             System.out.println("Z podanych boków nie można stworzyć trójkąta");
         }
         else {
+            System.out.println("Da się stworzyć trójkąt");
             HashMap<Integer,Integer> rodzaj = new HashMap<>();
             for(Integer a : boki)
                 rodzaj.put(a,0);
@@ -27,6 +28,8 @@ public class Zadanie3 {
                 System.out.println("Trójkąt jest równoramienny");
             else if(rodzaj.containsValue(3))
                 System.out.println("Trójkąt jest równoboczny");
+            else
+                System.out.println("Trójkąt jest różnoboczny");
         }
     }
 }

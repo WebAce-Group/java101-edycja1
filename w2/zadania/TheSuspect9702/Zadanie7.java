@@ -7,11 +7,11 @@ public class Zadanie7 {
     public static void main(String[] args) {
         ArrayList<Integer> arr = new ArrayList<>();
         Scanner scan = new Scanner(System.in);
-        int sum = 0;
+        double sum = 0;
         do {
-            System.out.println("Prosze podac liczbe wieksza od 100: ");
+            System.out.println("Prosze podac liczbe mniejsza od 100: ");
             arr.add(scan.nextInt());
-        }while(arr.get(arr.size()-1) > 100);
+        }while(arr.get(arr.size()-1) < 100);
         for (Integer a : arr)
             sum += a;
         System.out.println("Srednia arytmetyczna wynosi: " + (sum/arr.size()));
