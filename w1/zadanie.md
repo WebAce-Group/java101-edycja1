@@ -27,7 +27,7 @@ To nie jest konieczne, ale bardzo nam pomaga :)
   > W klasie ```Zadanie1``` utwórz metodę ```main```.
   > Plik powinien wyglądać tak:
   > ```java
-  >public class wZadanie1 {
+  >public class Zadanie1 {
   >    public static void main(String[] args) {
   >      // tutaj umieść rozwiązanie zadanie      
   >    }
