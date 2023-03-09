@@ -3,7 +3,8 @@ public class Zadanie7 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         boolean warunek = true;
-        int liczba, licznik=0, suma = 0;
+        int liczba, licznik=0;
+        float suma = 0;
         System.out.println("Wpisz calkowite, (liczba>100)=stop");
 
         do{
