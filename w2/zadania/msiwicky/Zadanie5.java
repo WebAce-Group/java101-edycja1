@@ -17,10 +17,11 @@ public class Zadanie5 {
         }
         System.out.println();
         for (int i = 1; i <= n; i++) {
-            if (i % 3 == 0 || i % 5 == 0){
+            if (i % 3 == 0 || i % 5 == 0) {
                 if (i % 3 != 0 || i % 5 != 0)
                     System.out.print(i + " ");
             }
         }
 
     }
+}

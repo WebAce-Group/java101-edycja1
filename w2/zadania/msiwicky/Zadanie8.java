@@ -8,3 +8,4 @@ public class Zadanie8 {
             System.out.println(i);
         }
     }
+}

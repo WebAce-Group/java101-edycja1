@@ -14,3 +14,4 @@ public class Zadanie6 {
         }
         System.out.println("Suma: " + suma);
     }
+}

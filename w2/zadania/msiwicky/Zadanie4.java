@@ -23,7 +23,7 @@ public class Zadanie4 {
         }
         System.out.print("Podaj numer dnia tygodnia: ");
         int dzienTyg = scanner.nextInt();
-        String dzienTygNapis = switch(dzienTyg) {
+        String dzienTygNapis = switch (dzienTyg) {
             case 1 -> "Poniedziałek";
             case 2 -> "Wtorek";
             case 3 -> "Środa";
@@ -37,3 +37,4 @@ public class Zadanie4 {
         System.out.println(dzienTygNapis);
 
     }
+}

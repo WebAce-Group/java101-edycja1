@@ -14,3 +14,4 @@ public class Zadanie7 {
         } while (liczba > 100);
         System.out.println("Średnia arytmetyczna: " + ((double) suma / iloscLiczb));
     }
+}
