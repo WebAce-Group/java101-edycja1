@@ -11,7 +11,7 @@ public class Zadanie3 {
         System.out.println("Podaj bok c: ");
         c = scanner.nextInt();
 
-        if(a+b>c || a+c>b || c+b>a){
+        if(a+b>c && a+c>b && c+b>a){
             System.out.println("Istnieje!\n");
             if(a==b && c==a){
                 System.out.println("Jest rownoboczny");
