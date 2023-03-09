@@ -20,14 +20,14 @@ To nie jest konieczne, ale bardzo nam pomaga :)
 -  do tego folderu będziesz wrzucać swoje rozwiązania zadań (pliki .java)
 
 ## Zadanie 1 - Zmienne i typy danych
-- W projekcie utwórz plik ```w1.zadania.Zadanie1.java```
+- W projekcie utwórz plik ```Zadanie1.java```
   > Uwaga! Nazwa pliku musi być taka sama jak nazwa klasy!
-  > W tym przypadku nazwa klasy to ```w1.zadania.Zadanie1```
+  > W tym przypadku nazwa klasy to ```Zadanie1```
   >
-  > W klasie ```w1.zadania.Zadanie1``` utwórz metodę ```main```.
+  > W klasie ```Zadanie1``` utwórz metodę ```main```.
   > Plik powinien wyglądać tak:
   > ```java
-  >public class w1.zadania.Zadanie1 {
+  >public class wZadanie1 {
   >    public static void main(String[] args) {
   >      // tutaj umieść rozwiązanie zadanie      
   >    }
@@ -64,7 +64,7 @@ To nie jest konieczne, ale bardzo nam pomaga :)
 - Wyświetl w konsoli wartość wszystkich zmiennych.
 
 ## Wysyłanie rozwiązań
-- Dodać pliki ```w1.zadania.Zadanie1.java``` i ```Zadanie2.java``` do repozytorium (```git add```).
+- Dodać pliki ```Zadanie1.java``` i ```Zadanie2.java``` do repozytorium (```git add```).
 - Zatwierdzić zmiany (```git commit -m "Rozwiązania zadań z zajęć 1"```).
 - Wysłać zmiany na serwer do waszych repozytoriów (```git push```).
 - Na stronie GitHuba, w repozytorium, utworzyć nowy pull request do repozytorium kursu - czyli do tego, z którego robiliście ```fork```.
