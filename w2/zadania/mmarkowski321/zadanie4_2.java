@@ -4,7 +4,7 @@ public class zadanie4_2 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Wprowadz liczbe całkowitą: ");
-        int miesiac = scanner.nextInt();;
+        int miesiac = scanner.nextInt();
         String kwartal = switch (miesiac){
             case 1,2,3 -> "I kwartał";
 
