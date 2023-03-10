@@ -1,4 +1,4 @@
-package w2.mmarkowski321;
+package w2.zadania.mmarkowski321;
 
 import java.util.Scanner;
 
