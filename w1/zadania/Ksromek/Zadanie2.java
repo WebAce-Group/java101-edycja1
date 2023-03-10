@@ -1,3 +1,4 @@
+package w1.zadania.Ksromek;
 import static java.lang.Math.*;
 public class Zadanie2 {
     public static void main(String[] args) {
