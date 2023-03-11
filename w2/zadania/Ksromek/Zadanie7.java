@@ -2,8 +2,8 @@ package w2.zadania.Ksromek;
 import java.util.Scanner;
 public class Zadanie7{
     public static void main(String[] args) {
-        int suma=0;
-        int licznik=0;
+        double suma=0;
+        double licznik=0;
         int liczba;
         Scanner scanner = new Scanner(System.in);
         do
