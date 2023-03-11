@@ -13,6 +13,6 @@ public class Zadanie7 {
             suma+=x;
             ilosc++;
         }while(true);
-        System.out.println(suma/ilosc);
+       System.out.println((float)suma/(float)ilosc);
     }
 }
