@@ -26,5 +26,7 @@ class Zadanie3{
         else{
             System.out.println("Nie da się zbudować trójkącika :(");
         }
+
+        scanner.close();
     }
 }

@@ -19,5 +19,6 @@ class Zadanie7{
 
         System.out.println("Średnia arytmetyczna podanych liczb: " + (double)(sum)/counter);
 
+        scanner.close();
     }
 }

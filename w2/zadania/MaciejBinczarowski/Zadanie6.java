@@ -14,5 +14,7 @@ class Zadanie6{
         }
 
         System.out.println("Suma: " + sum);
+
+        scanner.close();
     }
 }

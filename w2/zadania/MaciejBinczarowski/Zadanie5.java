@@ -30,5 +30,7 @@ class Zadanie5{
                 System.out.println(i);
             }
         }
+
+        scanner.close();
     }
 }

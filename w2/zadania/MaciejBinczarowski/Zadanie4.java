@@ -55,5 +55,13 @@ class Zadanie4{
             default:
                 System.out.println("Nie ma takiego miesiąca, no co Ty");
         }
+
+        // String month;
+        // String month = switch(scanner.nextInt()){
+        //     case 1:
+        //         yield "Poniedziałek";
+        // }
+
+        scanner.close();
     }
 }
