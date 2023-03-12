@@ -10,7 +10,7 @@ public class Zadanie6 {
             while(bool)
             {
             Scanner scan = new Scanner(System.in);
-            System.out.println("Zsumuje liczby podawane dopuki nie zostanie podane 0: ");
+            System.out.println("Zsumuje liczby podawane dopoki nie zostanie podane 0: ");
             int n = scan.nextInt();
             if(n!=0)
             sum += n;
