@@ -12,7 +12,8 @@ public class zadanie7 {
             suma+=liczba;
             liczbaProb++;
         }while (liczba <= 100);
+
         System.out.println();
-        System.out.println(suma/liczbaProb);
+        System.out.println((double)suma/liczbaProb);
     }
 }
