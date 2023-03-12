@@ -1,4 +1,3 @@
-package w1.zadania.mmarkowski321;
 public class zadanie2 {
     public static void main(String[] args) {
         int a = 5, b = 10;
