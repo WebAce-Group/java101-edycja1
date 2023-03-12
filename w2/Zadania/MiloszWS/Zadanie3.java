@@ -11,18 +11,23 @@ public class Zadanie3 {
         int bok1 = abc.nextInt();
         int bok2 = abc.nextInt();
         int bok3 = abc.nextInt();
+        
+        
+        if (bok1 <= bok2 + bok3 && bok2 <= bok1 + bok3 && bok3 <= bok2 + bok1)
+        {
+           if (bok1 == bok2 && bok2 == bok3) {
+               System.out.println("Trojkąt jest równoboczny.");
+           }
 
-        if (bok1 == bok2 && bok2 == bok3) {
-            System.out.println("Trojkąt jest równoboczny.");
+           else if (bok1 == bok2 || bok1 == bok3 || bok2 == bok3) {
+               System.out.println("Trojkąt jest równoramienny.");
+           }
+        
+           else {System.out.println("Trojkat jest roznoboczny");}
+        
         }
-
-        else if (bok1 == bok2 || bok1 == bok3 || bok2 == bok3) {
-            System.out.println("Trojkąt jest równoramienny.");
-        }
-
-        else if (bok1 <= bok2 + bok3 && bok2 <= bok1 + bok3 && bok3 <= bok2 + bok1) {
-            System.out.println("Trojkat jest roznoboczny, da sie zbudowac.");
-        } else {
+        
+        else {
             System.out.println("Trojkata nie da sie zbudowac.");
         }
     }
