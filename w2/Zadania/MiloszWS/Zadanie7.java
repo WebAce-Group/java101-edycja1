@@ -6,7 +6,8 @@ public class Zadanie7 {
     public static void main(String[] args)
     {
         Scanner Liczba = new Scanner(System.in);
-        int n,srednia,suma=0, licznik=0;
+        int n, suma=0, licznik=0;
+        float srednia;
 
         do {
             System.out.println("Prosze podac liczbe: ");
