@@ -17,8 +17,9 @@ public class Zadanie6 {
             else
             {
                 System.out.println("Suma podanych liczb to: " + sum);
-                break;
+                bool = false;
             }
+            scan.close();
         }
     }
 }

@@ -8,12 +8,12 @@ public class Zadanie7 {
             Scanner scan = new Scanner(System.in);
             int n=0, sum =0, i=0;
             do{
-                System.out.println("Dopuki nie zostanie podana liczba wieksza niz 100, program usredni podane liczby: ");
+                System.out.println("Dopoki nie zostanie podana liczba wieksza niz 100, program usredni podane liczby: ");
             n = scan.nextInt();
             sum += n;
             i++;
             }while(n<=100);
-            System.out.println("Średnia arytmetyczna podanych liczb to: " + (sum/i));
+            System.out.println("Srednia arytmetyczna podanych liczb to: " + (sum/i));
             scan.close();
         } 
     }
