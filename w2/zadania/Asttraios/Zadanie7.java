@@ -5,7 +5,8 @@ public class Zadanie7 {
     public static void main(String [] args) {
          
         Scanner input5= new Scanner(System.in);
-        int b, licznik=0, suma=0;;
+        int b;
+        double licznik=0, suma=0;
 
         do{
                 System.out.println("Podaj liczbe calkowita: ");
