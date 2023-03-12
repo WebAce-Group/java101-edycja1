@@ -6,7 +6,7 @@ public class Zadanie1 {
         double e=1.1, f=2.2, g=3.3, h=4.4;
         double ef=e*f, gh=g/h;
         int mod=ab%b;
-        char i='A', j='a'; 
+        char i='A', j='a';
         String k="Ala", l="ma";
         String kl=k+l;
         boolean m=true, n=false;
