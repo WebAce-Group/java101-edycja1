@@ -27,6 +27,7 @@ public class Zadanie4 {
             default:
             System.out.println("liczba z poza zakresu");
         }
+        scan.close();
     };
     public static void dzienTygodnia()
         {
@@ -53,6 +54,7 @@ public class Zadanie4 {
                         yield "Nieznany dzien tygodznia";
                 };
                 System.out.println("Dzien tygodnia: " + wynik);
+                scan.close();
         };
     }
     public static void main(String[] args) {

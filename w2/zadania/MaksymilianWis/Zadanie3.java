@@ -31,6 +31,7 @@ public class Zadanie3{
             else{
                 System.out.println("Nie mozna stworzyc trojkata");
             }
+            scan.close();
         }
     }
     
