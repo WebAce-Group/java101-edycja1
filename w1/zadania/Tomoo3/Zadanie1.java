@@ -21,7 +21,9 @@ public class Zadanie1 {
         int ij = i + j;
         System.out.println("Wartość dodawania zmiennych 'i' i 'j' wynosi: " + ij);
         String k = "Ala";
-        System.out.println("Nie da się dodać zmiennych k i 1, ponieważ '1' nie może być nazwą zmiennej.");
+        String l = "ma";
+        String kl = k + l;
+        System.out.println("Dodawanie zmiennych k i l wynosi: " + kl);
         boolean m = true;
         boolean n = false;
         System.out.println(m && n);
