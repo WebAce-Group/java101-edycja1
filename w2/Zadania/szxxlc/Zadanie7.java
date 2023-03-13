@@ -4,6 +4,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         int ilosc=0, k, suma=0;
+        double srednia;
         boolean czy = true;
         do
         {
@@ -13,6 +14,7 @@ public class Main {
             ilosc++;
             if (k>100) czy=false;
         } while (czy);
-        System.out.println("Srednia podanych liczb: " + suma/ilosc);
+        srednia=(double)(suma)/ilosc;
+        System.out.println("Srednia podanych liczb: " + srednia);
     }
 }
