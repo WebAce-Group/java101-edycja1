@@ -18,6 +18,6 @@ public class Zadanie7
                 flag =!flag;
             }
         } while (flag);
-        System.out.println("Średnia twoich liczb wynosi:" + suma/ilosc);
+        System.out.println("Średnia twoich liczb wynosi:" + (float) suma/ilosc);
     }
 }
