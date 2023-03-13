@@ -17,10 +17,10 @@ public class Zadanie3 {
             if (a == b && b == c) {
                 System.out.println("Trójkąt jest równoboczny.");
             }
-            if (a == b || a == c || b == c) {
+            else if (a == b || a == c || b == c) {
                 System.out.println("Trójkąt jest równoramienny.");
             }
-            if (a != b && b!=c) {
+            else if (a != b && b!=c) {
                 System.out.println("Trójkąt jest różnoboczny.");
             }
         }
