@@ -55,9 +55,9 @@ Przykłady użycia:
 
 ```java
 int[] tablica = new int[5];
-Array.fill(tablica, 0); // wypełnia tablicę zerami
-Array.sort(tablica); // sortuje tablicę
-Array.binarySearch(tablica, 3); // wyszukuje element o indeksie 3 w tablicy
+Arrays.fill(tablica, 0); // wypełnia tablicę zerami
+Arrays.sort(tablica); // sortuje tablicę
+Arrays.binarySearch(tablica, 3); // wyszukuje element o indeksie 3 w tablicy
 ```
 
 
