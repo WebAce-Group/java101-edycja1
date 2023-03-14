@@ -41,10 +41,10 @@ tablica[0][1] = 2;
 tablica[4][4] = 25;
 ```
 
-## Klasa `Array`
+## Klasa `Arrays`
 
-Klasa `Array` zawiera wiele przydatnych metod do zarządzania tablicami. Wiele z nich jest statycznych, więc nie musimy tworzyć obiektu
-klasy `Array` aby je wywołać. Metody tej klasy to:
+Klasa `Arrays` zawiera wiele przydatnych metod do zarządzania tablicami. Wiele z nich jest statycznych, więc nie musimy tworzyć obiektu
+klasy `Arrays` aby je wywołać. Metody tej klasy to:
 
 - `sort()` - sortuje tablicę używając implementacji sortowania szybkiego (quicksort)
 - `binarySearch()` - wyszukuje element o podanym indeksie w tablicy, za pomocą algorytmu wyszukiwania binarnego
