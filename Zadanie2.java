@@ -16,4 +16,4 @@ public class Zadanie2 {
         //wyswietlanie kazdej zmiennej po wykonanych obliczeniach
         System.out.println("a="+(a)+", b="+(b)+", c="+(c)+", d="+(d)+", e="+(e)+", f="+(g)+", h="+(h));
     }
-}
+

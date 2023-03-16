@@ -1,0 +1,20 @@
+How much is the cost of the course?
+0
+
+How much is 2 + 2?
+4
+
+How much is 54 * 4?
+216
+
+How much is 3 - 5?
+-2
+
+What is the suffix of our course name? (Java...)
+101
+
+What is the current year?
+2023
+
+How old is the lecturer?
+21
