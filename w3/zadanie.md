@@ -31,7 +31,7 @@ Napisz program, który:
 - utworzy obiekt typu `ArrayList` przechowujący obiekty typu `String`
 - dodaj do listy 10 elementów (zakładamy, że użytkownik podał 10 imion)
 - posortuj listę (użyj metody `sort()`)
-- usuń z listy najczęściej występujące imię (użyj metody `remove()`)
+- usuń z listy pierwszą pozycję(użyj metody `remove()`)
 - wyświetl pozostałe elementy listy (użyj pętli `for-each`)
   
 ## Zadanie 13 - Gra typu trivia
