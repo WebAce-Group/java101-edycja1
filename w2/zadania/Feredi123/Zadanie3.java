@@ -12,7 +12,7 @@ public class Zadanie3 {
         if(a >= b+c || b>= a+c || c >= a+b){
             System.out.println("nie da się zbudować trójkąta z takich boków");
         }
-        if(a == b && b == c){
+        else if(a == b && b == c){
             System.out.println("trójkąt równoboczny");
         } else if (a == b || a== c || b== c) {
             System.out.println("trójkąt równoramienny");
