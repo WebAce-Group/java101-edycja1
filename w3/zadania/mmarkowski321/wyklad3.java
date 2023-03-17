@@ -105,6 +105,7 @@ public class wyklad3 {
             double score = ((double) amountOfPkt/map.size())*100;
             System.out.printf("Your score in percents: %d \nYour grade:",Math.round(score));
             score = Math.round(score);
+            //w tym miejscu nie wiem jak od razu zmienna score wlozyc do switcha jakbys mial pomysl prosze o komentarz, dzieki!
             int grade;
             if(score>95){
                 grade = 6;
