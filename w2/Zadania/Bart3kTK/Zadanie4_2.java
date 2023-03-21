@@ -17,13 +17,13 @@ public class Zadanie4_2 {
             case 6 -> "Sobota";
             case 7 -> "Niedziela";
             default -> "Zle dane wyejsciowe";
-        }
-        System.out.println(liczba);
+        };
+        System.out.println(wynik);
 
         
 
 
-        //Tu nie wiem o co chodzi ale vsc pokazuje mi blad w tym switchu i java wyswietla bledy od 11 do 20 lini
+        //Udalo mi sie pobrac jave 19 i wszystko smiga :D
 
 
 
