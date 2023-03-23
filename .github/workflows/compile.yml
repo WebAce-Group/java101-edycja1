@@ -2,7 +2,7 @@ name: Homework Checker
 
 on:
   pull_request:
-    branches: [ "main" ]
+    branches: [ "main", "WebAce-Group:main" ]
     paths: '*.java'
 
 jobs:
