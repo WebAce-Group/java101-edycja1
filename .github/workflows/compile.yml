@@ -15,9 +15,9 @@ jobs:
         with:
           java-version: '20'
           distribution: 'oracle'
-      - name: Kompiluj pliki java
+      - name: Kompiluj nowe pliki java
         run: |
-          for file in $(find . -type f -name '*.java'); do
+          for file in $(git diff --diff-filter=A --name-only origin/${{ github.base_ref }} -- '*.java'); do
             javac $file 2>> errors.txt || true
           done
       - name: Zainstaluj moduł @actions/core
