@@ -17,7 +17,7 @@ jobs:
           distribution: 'oracle'
       - name: Kompiluj nowe pliki java
         run: |
-          for file in $(git ls-files --others --exclude-standard '*.java'); do
+          for file in $(git diff --diff-filter=A --name-only ${{ github.event.pull_request.base.sha }} -- '*.java'); do
             javac $file 2>> errors.txt || true
           done
       - name: Zainstaluj moduł @actions/core
