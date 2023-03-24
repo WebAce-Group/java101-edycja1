@@ -1,4 +1,4 @@
-package w3.zadania.hjxxzk;
+package w3.zadania.hjxxzk1;
 
 import java.util.ArrayList;
 import java.util.Scanner;
