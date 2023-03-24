@@ -22,7 +22,7 @@ Napisz program, który:
 - utworzy tablicę 10 elementową typu `int`
 - uzupełni ją samymi zerami (użyj metody `fill()`)
 - utwórz drugą tablicę 10 elementową typu `int`
-- pobierz od użytkownika 10 liczb i zapisz je w tablicy w drugiej tablicy
+- pobierz od użytkownika 10 liczb i zapisz je w drugiej tablicy
 - posortuj obie tablice (użyj metody `sort()`)
 
 ## Zadanie 12 - `ArrayList`
@@ -31,7 +31,7 @@ Napisz program, który:
 - utworzy obiekt typu `ArrayList` przechowujący obiekty typu `String`
 - dodaj do listy 10 elementów (zakładamy, że użytkownik podał 10 imion)
 - posortuj listę (użyj metody `sort()`)
-- usuń z listy najczęściej występujące imię (użyj metody `remove()`)
+- usuń z listy pierwszą pozycję(użyj metody `remove()`)
 - wyświetl pozostałe elementy listy (użyj pętli `for-each`)
   
 ## Zadanie 13 - Gra typu trivia
@@ -41,7 +41,7 @@ Napisz program, który:
 - Przygotuj funkcjonalność, która sprawi, że użytkownik będzie mógł zagrać ponownie
 - Przy użyciu pętli `for-each` wyświetl pytania i pobierz odpowiedzi od użytkownika.
 - Jeśli użytkownik poda poprawną odpowiedź, dodaj do wyniku 1 punkt.
-- Po zakończeniu wszystkich pytań wyświetl jaką ocenę dostał użytkownik (`switch`).
+- Po zakończeniu wszystkich pytań wyświetl jaką ocenę dostał użytkownik (`if else`).
 (> 95% - ocena 6, 85% - ocena 5, 75% - ocena 4, 65% - ocena 3, 55% - ocena 2, < 55% - ocena 1)
 
 ## Zadanie Dodatkowe - Nieobowiązkowe
