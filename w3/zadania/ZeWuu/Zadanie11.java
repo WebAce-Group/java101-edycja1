@@ -1,33 +1,24 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class Zadanie11{
     public static void main(String[] args){
+        int[] Tab = new int [10];
+        Arrays.fill(Tab, 0);
+        int[] Tab2 = new int [10];
         Scanner scanner = new Scanner(System.in);
-        int w, k;
-        System.out.println("Podaj ilość wierszy: ");
-        w = scanner.nextInt();
-        System.out.println("Podaj ilość kolumn: ");
-        k = scanner.nextInt();
-        int[][] Tab = new int[w][k];
-        int x=1;
-        for(int i=0;i<w;i++){
-            for(int j=0;j<k;j++){
-                Tab[i][j]=x;
-                x++;
-            }
+        System.out.println("Podaj 10 liczb:");
+        for(int i=0; i<10; i++){
+            Tab2[i] = scanner.nextInt();
         }
-        for (int i =0;i<w;i++){
-            for (int j=0;j<k;j++){
-                System.out.print(Tab[i][j] + " ");
-            }
-            System.out.println();
-        }
-        System.out.println("Macierz transponowana:");
-        for (int j= 0;j<k;j++){
-            for (int i=0;i<w;i++){
-                System.out.print(Tab[i][j] + " ");
-            }
-            System.out.println();
-        }
+        Arrays.sort(Tab);
+        Arrays.sort(Tab2);
+        for(int i : Tab){
+           System.out.print(i + " ");
+       }
+       System.out.println();
+       for(int i : Tab2){
+           System.out.print(i + " ");
+       }
     }
 }
