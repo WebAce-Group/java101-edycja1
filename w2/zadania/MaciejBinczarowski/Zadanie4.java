@@ -58,35 +58,35 @@ class Zadanie4{
 
         // Nie wiem czy poniższy fragment działa, ponieważ mam za starą wersję javy i nie potrafię jej zaktualizować :(
         // ale chyba jest git xd
+        int liczba = scanner.nextInt();
+        String month;
+        month = switch(liczba){
+            case 1:
+                yield "Poniedziałek";
 
-        // String month;
-        // month = switch(scanner.nextInt()){
-        //     case 1:
-        //         yield "Poniedziałek";
+            case 2:
+                yield "Wtorek";
 
-        //     case 2:
-        //         yield "Wtorek";
+            case 3:
+                yield "Środa";
 
-        //     case 3:
-        //         yield "Środa";
+            case 4:
+                yield "Czwartek";
 
-        //     case 4:
-        //         yield "Czwartek";
+            case 5:
+                yield "Piątek";
 
-        //     case 5:
-        //         yield "Piątek";
+            case 6:
+                yield "Sobota";
 
-        //     case 6:
-        //         yield "Sobota";
+            case 7:
+                yield "Niedziela";
 
-        //     case 7:
-        //         yield "Niedziela";
+            default:
+                yield "Nie właściwa wartość"
+        }
 
-        //     default:
-        //         yield "Nie właściwa wartość"
-        // }
-
-        // System.out.println(month);
+        System.out.println(month);
 
         scanner.close();
     }
