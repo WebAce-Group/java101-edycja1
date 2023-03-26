@@ -9,6 +9,7 @@ public class Zadanie5 {
     Scanner scan = new Scanner(System.in);
     System.out.println("Podaj dodatnia liczbe calkowita");
     int n = scan.nextInt();
+    scan.close();
 
     for(int i=1; i<n; i++ ){
         System.out.println(i);

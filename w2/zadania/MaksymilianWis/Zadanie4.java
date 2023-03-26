@@ -2,7 +2,7 @@ package w2.zadania.MaksymilianWis;
 import java.util.Scanner;
 
 public class Zadanie4 {
-    class metody
+   class metody
     {
     public static void ktoryKwartal()
     {
