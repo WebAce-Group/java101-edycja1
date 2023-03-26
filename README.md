@@ -30,7 +30,6 @@ Podczas kursu nauczysz się:
 - zapisu i odczytu z plików
 - łączenia się z bazą danych lokalną
 - łączenia się z bazą danych na serwerze
-- zapytań HTTP w Javie (napiszemy własny wrapper)
 - aplikacja okienkowa w frameworku JavaFx
 - aplikacja webowa w SpringBoot
 
