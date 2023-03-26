@@ -36,6 +36,31 @@ public class Zadanie13
             }
 
             System.out.println("Your result: " + Integer.toString(result));
+            double grade = Math.round(((double)result / 7.0) * 100.0);
+            if (grade >= 95)
+            {
+                System.out.println("Your grade is 6");
+            }
+            else if (grade >= 85)
+            {
+                System.out.println("Your grade is 5");
+            }
+            else if (grade >= 75)
+            {
+                System.out.println("Your grade is 4");
+            }
+            else if (grade >= 65)
+            {
+                System.out.println("Your grade is 3");
+            }
+            else if (grade >= 55)
+            {
+                System.out.println("Your grade is 2");
+            }
+            else
+            {
+                System.out.println("Your grade is 1 :("); 
+            }
 
             System.out.println("Play again? (Press 'e' to exit, press any other key to continue)");
             scanner.nextLine();
