@@ -56,8 +56,7 @@ class Zadanie4{
                 System.out.println("Nie ma takiego miesiąca, no co Ty");
         }
 
-        // Nie wiem czy poniższy fragment działa, ponieważ mam za starą wersję javy i nie potrafię jej zaktualizować :(
-        // ale chyba jest git xd
+        
         int liczba = scanner.nextInt();
         String month;
         month = switch(liczba){
