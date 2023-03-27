@@ -6,7 +6,7 @@ Napisz program, który:
 - utworzy tablicę 10 elementową typu `int`
 - pobierze od użytkownika 10 liczb i zapisze je w tablicy
 - dla każdego elementu tablicy wyświetli jego 
-wartość podniesiąną do potęgi jego indeksu (użyj pętli for-each)
+wartość podniesioną do potęgi jego indeksu
 
 ## Zadanie 10 - Tablice wielowymiarowe
 
