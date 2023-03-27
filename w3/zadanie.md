@@ -6,13 +6,13 @@ Napisz program, który:
 - utworzy tablicę 10 elementową typu `int`
 - pobierze od użytkownika 10 liczb i zapisze je w tablicy
 - dla każdego elementu tablicy wyświetli jego 
-wartość podniesiąną do potęgi jego indeksu (użyj pętli for-each)
+wartość podniesioną do potęgi jego indeksu
 
 ## Zadanie 10 - Tablice wielowymiarowe
 
 Napisz program, który:
 - pobierze od użytkownika liczbę 'w' i 'k' (wiersze i kolumny)
-- przy użyciu pętli `for` uzupełnij tablicę dwuwymiarową (macierz kwadratową) o wymiarach `w`x`k` liczbami od 1 do `w`x`k`
+- przy użyciu pętli `for` uzupełnij tablicę dwuwymiarową o wymiarach `w`x`k` liczbami od 1 do `w`x`k`
 - wyświetli macierz
 - wyświetli macierz transponowaną do macierzy z poprzedniego punktu
 
