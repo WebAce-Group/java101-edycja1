@@ -12,7 +12,7 @@ wartość podniesiąną do potęgi jego indeksu (użyj pętli for-each)
 
 Napisz program, który:
 - pobierze od użytkownika liczbę 'w' i 'k' (wiersze i kolumny)
-- przy użyciu pętli `for` uzupełnij tablicę dwuwymiarową (macierz kwadratową) o wymiarach `w`x`k` liczbami od 1 do `w`x`k`
+- przy użyciu pętli `for` uzupełnij tablicę dwuwymiarową o wymiarach `w`x`k` liczbami od 1 do `w`x`k`
 - wyświetli macierz
 - wyświetli macierz transponowaną do macierzy z poprzedniego punktu
 
