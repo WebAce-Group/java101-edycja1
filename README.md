@@ -42,4 +42,4 @@ Podczas kursu nauczysz się:
 
 [Wykład 3](https://github.com/WebAce-Group/java101/tree/main/w3)
 
-[Wykład 3](https://github.com/WebAce-Group/java101/tree/main/w4)
+[Wykład 4](https://github.com/WebAce-Group/java101/tree/main/w4)
