@@ -151,16 +151,16 @@ class Penguin extends Animal {
     }
 }
 
-Animal animal1 = new Lion();
-Animal animal2 = new Giraffe();
-Animal animal3 = new Penguin();
+Lion animal1 = new Lion();
+Giraffe animal2 = new Giraffe();
+Penguin animal3 = new Penguin();
 
 animal1.eat();
 animal2.eat();
 animal3.eat();
 animal1.roar();
 animal2.stretchNeck();
-animal.waddle();
+animal3.waddle();
 ```
 
 ## Modyfikatory dostępu
@@ -260,6 +260,91 @@ W tym przykładzie klasa Animal ma chroniony atrybut name, który można uzyska�
 Może to być przydatne w sytuacjach, gdy chcesz pozwolić podklasom na dostęp i modyfikację wewnętrznego stanu swojej nadklasy, ale nie chcesz ujawniać tego stanu światu zewnętrznemu. Na przykład rozważ klasę Shape, która ma atrybut color. Możesz chcieć pozwolić podklasom takim jak Circle i Rectangle na dostęp i modyfikację atrybutu color, ale nie chcesz go ujawniać światu zewnętrznemu. W tym przypadku możesz zadeklarować atrybut color jako protected.
 
 Korzystanie z modyfikatora dostępu protected może również pomóc w poprawie ponownego wykorzystania kodu i jego utrzymania. Pozwalając podklasom na dostęp i modyfikację wewnętrznego stanu swojej nadklasy, możesz uniknąć powielania kodu w każdej podklasie i ułatwić zmianę implementacji nadklasy bez wpływu na jej podklasy.
+
+## Abstrakcja
+
+Abstrakcja to kolejna podstawowa zasada programowania zorientowanego na obiekty (OOP), obok dziedziczenia, enkapsulacji i polimorfizmu. Odnosi się do procesu ujawniania tylko istotnych i odpowiednich szczegółów obiektu światu zewnętrznemu, jednocześnie ukrywając jego wewnętrzne działanie.
+
+Abstrakcja jest używana do zmniejszenia złożoności i zwiększenia ponownego wykorzystania poprzez oddzielenie interfejsu obiektu (co może zrobić) od jego implementacji (jak to robi). Pozwala to użytkownikowi obiektu na interakcję z nim bez konieczności znajomości jego wewnętrznych szczegółów.
+
+W Javie abstrakcję można osiągnąć za pomocą klas abstrakcyjnych i interfejsów. Klasa abstrakcyjna to klasa, która nie może być zinstancjonowana i służy do zapewnienia wspólnego interfejsu dla swoich podklas. Interfejs to zbiór metod abstrakcyjnych (metod bez ciała), które muszą być zaimplementowane przez każdą klasę, która implementuje interfejs.
+
+Oto przykład demonstrujący abstrakcję w Javie:
+
+```java
+interface Shape {
+    double getArea();
+}
+
+class Circle implements Shape {
+    private double radius;
+
+    public Circle(double radius) {
+        this.radius = radius;
+    }
+
+    public double getArea() {
+        return Math.PI * radius * radius;
+    }
+}
+
+class Rectangle implements Shape {
+    private double length;
+    private double width;
+
+    public Rectangle(double length, double width) {
+        this.length = length;
+        this.width = width;
+    }
+
+    public double getArea() {
+        return length * width;
+    }
+}
+
+Shape shape1 = new Circle(5);
+Shape shape2 = new Rectangle(10, 20);
+```
+
+W tym przykładzie interfejs Shape zapewnia abstrakcyjną metodę getArea, która musi być zaimplementowana przez każdą klasę implementującą interfejsu Shape. Klasy Circle i Rectangle implementują interfejs Shape i zapewniają własną implementację metody getArea. W ten sposób użytkownik interfejsu Shape może wchodzić w interakcję z obiektami klas Circle i Rectangle bez konieczności znajomości ich wewnętrznych szczegółów.
+
+
+## Enkapsulacja
+
+Enkapsulacja to jedna z czterech podstawowych zasad programowania zorientowanego na obiekty (OOP), obok dziedziczenia, abstrakcji i polimorfizmu. Odnosi się do łączenia danych (atrybutów) i metod (zachowań) działających na tych danych w jednej jednostce, zwykle klasie.
+
+Enkapsulacja jest używana do ukrywania wewnętrznych szczegółów obiektu i ochrony jego danych przed bezpośrednim dostępem lub modyfikacją z zewnątrz obiektu. Jest to osiągane poprzez deklarowanie atrybutów klasy jako prywatnych i zapewnienie publicznych metod (znanych również jako metody dostępu i modyfikacji) do dostępu i modyfikacji wartości tych atrybutów.
+
+Oto przykład demonstrujący enkapsulację w Javie:
+
+```java
+class BankAccount {
+    private double balance;
+
+    public void deposit(double amount) {
+        if (amount > 0) {
+            balance += amount;
+        }
+    }
+
+    public void withdraw(double amount) {
+        if (amount > 0 && amount <= balance) {
+            balance -= amount;
+        }
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+}
+
+BankAccount account = new BankAccount();
+account.deposit(100);
+account.withdraw(50);
+System.out.println(account.getBalance());
+```
+
+W tym przykładzie klasa BankAccount enkapsuluje atrybut balance, deklarując go jako prywatny i zapewniając publiczne metody deposit, withdraw i getBalance do dostępu i modyfikacji jego wartości. W ten sposób wewnętrzne szczegóły klasy BankAccount są ukryte przed światem zewnętrznym, a jej dane są chronione przed bezpośrednim dostępem lub modyfikacją.
 
 ## Obsługa plików
 
