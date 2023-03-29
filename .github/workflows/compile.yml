@@ -1,0 +1,46 @@
+name: Homework Checker
+
+on:
+  pull_request:
+    paths: '*.java'
+
+jobs:
+  compile_homework:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Zainstaluj JDK 20 od Oracle
+        uses: actions/setup-java@v3.10.0
+        with:
+          java-version: '20'
+          distribution: 'oracle'
+      - name: Kompiluj nowe pliki java
+        run: |
+          for file in $(git ls-files --others --exclude-standard '*.java'); do
+            echo "Kompilowanie pliku $file"
+            javac $file 2>> errors.txt || true
+          done
+      - name: Zainstaluj moduł @actions/core
+        run: npm install @actions/core
+      - name: Wyślij wynik kompilacji jako komentarz do pull requesta
+        if: always()
+        uses: actions/github-script@v5
+        with:
+          script: |
+            const homework_core = require('@actions/core')
+            const fs = require('fs')
+            let errors = ''
+            if (fs.existsSync('errors.txt')) {
+              errors = fs.readFileSync('errors.txt', 'utf8')
+            }
+            if (errors) {
+              const body = `### Wynik kompilacji:\n\`\`\`yml\n${errors}\n\`\`\``
+              await github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body,
+              })
+              homework_core.setFailed('Kompilacja nie powiodła się')
+            }
