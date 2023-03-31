@@ -1,4 +1,4 @@
-package w1.zadania.Ziolo03;
+package w3.zadania.Ziolo03;
 import java.util.Arrays;
 import java.util.Scanner;
 

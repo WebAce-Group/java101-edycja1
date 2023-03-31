@@ -1,4 +1,4 @@
-package w1.zadania.Ziolo03;
+package w3.zadania.Ziolo03;
 import java.util.Scanner;
 import static java.lang.Math.*;
 public class Zadanie9 {
