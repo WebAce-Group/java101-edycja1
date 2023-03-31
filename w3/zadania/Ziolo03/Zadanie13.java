@@ -47,7 +47,7 @@ public class Zadanie13 {
                 System.out.println("Twoja ocena to 1");
                 break;
             case 0:
-                System.out.println("Twoja ocena to 1");
+                System.out.println("Twoja ocenato 1");
                 break;
 
 
