@@ -20,9 +20,9 @@ public class Zadanie17 {
         BufferedReader bufferedReader = null;
         BufferedWriter bufferedWriter = null;
         List<String> lines = new ArrayList<String>();
-        int counter = 0;
+        int linesCounter = 0;
 
-        System.out.println("Give filename (*.txt) to read data: ");
+        System.out.println("Give filename with file extension to read data: ");
         String filename = scanner.nextLine();
         Path path = Paths.get(filename);
         boolean fileExists = Files.exists(path);
@@ -36,7 +36,9 @@ public class Zadanie17 {
             String line;
             while ((line = bufferedReader.readLine()) != null) {
                 lines = bufferedReader.lines().collect(Collectors.toList());
+                linesCounter++;
             }
+            System.out.println("Lines in file: " + linesCounter);
             bufferedReader.close();
         } catch (FileNotFoundException e) {
             System.err.println("File does not exist");
