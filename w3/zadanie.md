@@ -6,13 +6,13 @@ Napisz program, który:
 - utworzy tablicę 10 elementową typu `int`
 - pobierze od użytkownika 10 liczb i zapisze je w tablicy
 - dla każdego elementu tablicy wyświetli jego 
-wartość podniesiąną do potęgi jego indeksu (użyj pętli for-each)
+wartość podniesioną do potęgi jego indeksu
 
 ## Zadanie 10 - Tablice wielowymiarowe
 
 Napisz program, który:
 - pobierze od użytkownika liczbę 'w' i 'k' (wiersze i kolumny)
-- przy użyciu pętli `for` uzupełnij tablicę dwuwymiarową (macierz kwadratową) o wymiarach `w`x`k` liczbami od 1 do `w`x`k`
+- przy użyciu pętli `for` uzupełnij tablicę dwuwymiarową o wymiarach `w`x`k` liczbami od 1 do `w`x`k`
 - wyświetli macierz
 - wyświetli macierz transponowaną do macierzy z poprzedniego punktu
 
@@ -22,7 +22,7 @@ Napisz program, który:
 - utworzy tablicę 10 elementową typu `int`
 - uzupełni ją samymi zerami (użyj metody `fill()`)
 - utwórz drugą tablicę 10 elementową typu `int`
-- pobierz od użytkownika 10 liczb i zapisz je w tablicy w drugiej tablicy
+- pobierz od użytkownika 10 liczb i zapisz je w drugiej tablicy
 - posortuj obie tablice (użyj metody `sort()`)
 
 ## Zadanie 12 - `ArrayList`
@@ -41,7 +41,7 @@ Napisz program, który:
 - Przygotuj funkcjonalność, która sprawi, że użytkownik będzie mógł zagrać ponownie
 - Przy użyciu pętli `for-each` wyświetl pytania i pobierz odpowiedzi od użytkownika.
 - Jeśli użytkownik poda poprawną odpowiedź, dodaj do wyniku 1 punkt.
-- Po zakończeniu wszystkich pytań wyświetl jaką ocenę dostał użytkownik (`switch`).
+- Po zakończeniu wszystkich pytań wyświetl jaką ocenę dostał użytkownik (`if else`).
 (> 95% - ocena 6, 85% - ocena 5, 75% - ocena 4, 65% - ocena 3, 55% - ocena 2, < 55% - ocena 1)
 
 ## Zadanie Dodatkowe - Nieobowiązkowe
