@@ -1,4 +1,4 @@
-# Zadanie 14 - `Wstęp do OOP`
+`# Zadanie 14 - `Wstęp do OOP`
 
 Stwórz klasę Rectangle, która ma dwa atrybuty: length i width. Klasa powinna mieć konstruktor, który przyjmuje dwa argumenty do zainicjalizowania atrybutów długości i szerokości. Klasa powinna mieć również dwie metody: getArea i getPerimeter, które zwracają odpowiednio pole i obwód prostokąta.
 
