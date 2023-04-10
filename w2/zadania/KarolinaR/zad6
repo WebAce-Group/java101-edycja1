@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Zadanie6 {
+    public static void main(String[] args) {
+        boolean czyNieZero = true;
+        int suma = 0;
+        while (czyNieZero){
+            int liczba = new Scanner(System.in).nextInt();
+            if (liczba == 0)
+                czyNieZero = false;
+            else
+                suma += liczba;
+        }
+        System.out.println(suma);
+    }
+}
