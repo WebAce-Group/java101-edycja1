@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Zadanie3 {
+    public static void main(String[] args) {
+        /// zadanie 3
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Podaj pierwszy bok trójkąta: ");
+        int bok1 = scanner.nextInt();
+        System.out.println("Podaj drugi bok trójkąta: ");
+        int bok2 = scanner.nextInt();
+        System.out.println("Podaj trzeci bok trójkąta: ");
+        int bok3 = scanner.nextInt();
+        if (!(bok3+bok2>bok1) || !(bok2+bok1>bok3)||!(bok3+bok1>bok2))
+            System.out.println("Nie da się zbudować trójkąta");
+        else {
+            if (bok3 == bok2 & bok1 == bok3)
+                System.out.println("Trójkąt równoboczny");
+            else if (bok3 == bok2 || bok2 == bok1 || bok1 == bok3)
+                System.out.println("Trójkąt równoramienny");
+            else
+                System.out.println("Trójkąt różnoboczny");
+            }
+        }
+    }
