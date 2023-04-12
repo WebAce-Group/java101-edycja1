@@ -1,0 +1,4 @@
+Student
+deb
+Wykladowca
+guru
