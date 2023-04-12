@@ -2,6 +2,7 @@ public class KontoBankowe
 {
     private int numerKonta;
     private double saldo;
+    private int costam;
 
     public KontoBankowe(int numerKonta, double saldo)
     {
