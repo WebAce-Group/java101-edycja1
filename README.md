@@ -43,3 +43,7 @@ Podczas kursu nauczysz się:
 [Wykład 3](https://github.com/WebAce-Group/java101/tree/main/w3)
 
 [Wykład 4](https://github.com/WebAce-Group/java101/tree/main/w4)
+
+[Wykład 5](https://github.com/WebAce-Group/java101/tree/main/w5)
+
+[Wykład 6](https://github.com/WebAce-Group/java101/tree/main/w6)
