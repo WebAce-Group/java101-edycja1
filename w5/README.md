@@ -1,3 +1,5 @@
+<p align="center"><img src="https://user-images.githubusercontent.com/50357817/234226562-d7c43824-06a2-4fa0-9d02-578747c9874f.svg" alt="baner"></p>
+
 # Piąty wykład Java 101
 
 ## Data: **3 kwietnia 2023**
