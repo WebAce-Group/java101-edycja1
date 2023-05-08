@@ -31,7 +31,7 @@ Podczas kursu nauczysz się:
 - łączenia się z bazą danych lokalną
 - łączenia się z bazą danych na serwerze
 - aplikacja okienkowa w frameworku JavaFx
-- aplikacja webowa w SpringBoot
+- bardzo prosta aplikacja webowa w SpringBoot 
 
 ***Na końcu kursu, każdy z was będzie poproszony o napisanie własnego projektu***
 (po którego oddaniu otrzymacie oficjalny certyfikat podpisany przez WebAce Group)
@@ -43,3 +43,9 @@ Podczas kursu nauczysz się:
 [Wykład 3](https://github.com/WebAce-Group/java101/tree/main/w3)
 
 [Wykład 4](https://github.com/WebAce-Group/java101/tree/main/w4)
+
+[Wykład 5](https://github.com/WebAce-Group/java101/tree/main/w5)
+
+[Wykład 6](https://github.com/WebAce-Group/java101/tree/main/w6)
+
+[Wykład 7](https://github.com/WebAce-Group/java101/tree/main/w7)
