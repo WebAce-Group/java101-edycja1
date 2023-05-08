@@ -47,3 +47,5 @@ Podczas kursu nauczysz się:
 [Wykład 5](https://github.com/WebAce-Group/java101/tree/main/w5)
 
 [Wykład 6](https://github.com/WebAce-Group/java101/tree/main/w6)
+
+[Wykład 7](https://github.com/WebAce-Group/java101/tree/main/w7)
