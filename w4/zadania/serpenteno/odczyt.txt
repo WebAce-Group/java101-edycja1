@@ -1,0 +1,3 @@
+To jest przykład
+odczytu z pliku
+i liczenia jego linii tekstu
