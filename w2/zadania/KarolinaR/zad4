@@ -1,0 +1,37 @@
+import java.util.Scanner;
+public class Zadanie4 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Podaj numer miesiąca:");
+        int msc = scanner.nextInt();
+        String wynik = switch (msc) {
+            case 1, 2, 3 -> "I kwartał";
+            case 4, 5, 6 -> "II kwartał";
+            case 7, 8, 9 -> "III kwarrtał";
+            case 10, 11, 12 -> "IV kwarrtał";
+            default -> "nieznany miesiąc";
+        };
+        System.out.println(wynik);
+        System.out.println("Podaj numer dnia tygodnia");
+        String dzienTygodnia;
+        dzienTygodnia = switch (scanner.nextInt()) {
+            case (1):
+                yield "Poniedzialek";
+            case (2):
+                yield "Wtorek";
+            case (3):
+                yield "Środa";
+            case (4):
+                yield "Czwartek";
+            case (5):
+                yield "Piątek";
+            case (6):
+                yield "Sobota";
+            case (7):
+                yield "Niedziela";
+            default:
+                yield "Liczba poza zakresem";
+        };
+        System.out.println(dzienTygodnia);
+    };
+}

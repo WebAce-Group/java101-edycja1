@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Zadanie7 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        boolean czy_wieksza_od_100 = false;
+        int suma = 0;
+        int liczba;
+        int i = 0;
+        do {
+            System.out.println("Podaj liczbę całkowitą:");
+            liczba = scanner.nextInt();
+
+            if (liczba > 0) {
+                suma += liczba;
+                i++;
+            }
+        } while (liczba <= 100);
+        double srednia = suma/i;
+        System.out.println(srednia);
+
+    };
+}
